@@ -1,0 +1,1 @@
+minikube service service/{{ .Values.appName }} -n {{ .Values.namespace }} --url
